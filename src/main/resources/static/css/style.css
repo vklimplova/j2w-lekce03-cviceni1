@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
     background: white linear-gradient(to right bottom, rgba(0, 0, 255, 0.5), rgba(255, 0, 0, 0.5));
     color: black;
-    font-size: 40px;
+    font-size: 32px;
 }
 
 .container {
@@ -78,6 +78,6 @@ body {
 }
 
 .value {
-    width: 15ex;
+    width: 20ex;
     font-weight: bold;
 }
