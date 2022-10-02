@@ -13,7 +13,7 @@ sestávajícího ze dvou entit – `Person` (pro osobní údaje) a `Address` (pr
 1. Uprav `card.html` tak, aby se použily údaje o osobě z modelu.
 1. Vytvoř entitu `cz.czechitas.java2webapps.lekce3.entity.Address`, která bude obsahovat ulici (s čísly domu), obec a PSČ.
 1. V kontroléru vytvoř instanci entity `Address`, zadej do ní nějaké údaje a vlož ji do modelu pod klíčem `address`.
-1. Uprav `card.html` tak, aby se použily údaje o adrese z modelu.
+1. Uprav `card.ftlh` tak, aby se použily údaje o adrese z modelu.
 
 ## Mohlo by se hodit
 * příklady kódu najdeš v projektu pod adresářem `src/test/java`
