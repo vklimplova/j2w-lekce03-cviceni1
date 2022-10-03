@@ -1,3 +1,4 @@
+[#ftl]
 <!DOCTYPE html>
 <html lang="cs">
 <head>
@@ -16,19 +17,19 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Jan_Palach_foto_z_pr%C5%AFkazu.JPG" class="photo" alt="profilové foto"/>
         <div class="row">
             <span class="label">Jméno</span>
-            <span class="value">Jan</span>
+            <span class="value">${person.givenName}</span>
         </div>
         <div class="row">
             <span class="label">Příjmení</span>
-            <span class="value">Palach</span>
+            <span class="value">${person.lastName}</span>
         </div>
         <div class="row">
             <span class="label">Datum narození</span>
-            <span class="value">11. 8. 1948</span>
+            <span class="value">${person.birthDate.format('LONG_DATE')}</span>
         </div>
         <div class="row">
             <span class="label">Věk</span>
-            <span class="value">72</span>
+            <span class="value">${person.age}</span>
         </div>
     </div>
     <div class="address">
